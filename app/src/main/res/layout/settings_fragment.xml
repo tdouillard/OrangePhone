@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@android:style/Theme.Light"
+    android:id="@+id/settings">
+   <PreferenceCategory
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:title="Suggestion"
+       android:id="@+id/settings_content">
+      <SwitchPreference
+          android:key="checkbox_suggestion_preference"
+          android:title="Tsg"
+          android:defaultValue="true">
+      </SwitchPreference>
+   </PreferenceCategory>
+</PreferenceScreen>

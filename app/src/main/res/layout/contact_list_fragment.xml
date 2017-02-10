@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/contact_list">
+    <!-- Use standard android.R class list id instead of app specific id. This is just useful for
+         consistency. -->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/contacts_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</FrameLayout>
